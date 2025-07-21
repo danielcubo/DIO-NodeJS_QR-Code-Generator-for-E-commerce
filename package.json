@@ -1,0 +1,31 @@
+{
+  "name": "qr-code-generator-for-e-commerce",
+  "version": "1.0.0",
+  "description": "Kit de utilidades para e-commerce",
+  "keywords": [
+    "qrcode",
+    "e-commerce"
+  ],
+  "homepage": "https://github.com/danielcubo/DIO-NodeJS_QR-Code-Generator-for-E-commerce#readme",
+  "bugs": {
+    "url": "https://github.com/danielcubo/DIO-NodeJS_QR-Code-Generator-for-E-commerce/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcubo/DIO-NodeJS_QR-Code-Generator-for-E-commerce.git"
+  },
+  "license": "ISC",
+  "author": "Daniel F. Cubo",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "node --env-file=.env src/app.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
